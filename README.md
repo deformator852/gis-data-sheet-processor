@@ -8,3 +8,11 @@
 2. **Створіть віртуальне середовище**  
    ```bash
    uv venv
+
+3. **Встановіть залежності**  
+   ```bash
+     uv pip install --requirements pyproject.toml
+   
+4. **Запустіть проєкт**  
+   ```bash
+     uv run main.py
